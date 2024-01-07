@@ -1,0 +1,77 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+
+/* Styling the header boxes */
+
+header {
+    background-color: #b09e18;
+    color: rgb(9, 22, 72);
+    border-radius: 8px;
+    font-style: italic;
+    text-decoration-line: underline;
+    padding: 20px;
+    text-orientation: sideways;
+    text-shadow: #18b057;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-image: url('C:\Users\Ekta\Downloads\1251358.jpg');
+    background-size: cover;
+}
+
+.search-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+input[type="text"] {
+    padding: 5px;
+    width: 100px;
+    border-radius: 5px;
+    border: 5px solid #ccc;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+/* Styling the quote boxes */
+
+.quote {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #c19a9a;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Styling the special quote */
+
+.special {
+    background-color: #cd6936;
+    text-align: center;
+    text-decoration: solid;
+    font-display: initial;
+    font-style: italic Bold;
+    font-weight: 200;
+}
+
+.quote p {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #333;
+    /* Text color for quotes */
+}
+
+.quote .author {
+    font-style: normal;
+    font-weight: bold;
+    color: #555;
+}
